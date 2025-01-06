@@ -1,0 +1,82 @@
+/* General Enhancements */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.badge {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table {
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.table thead {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.table tbody tr:hover {
+    background-color: var(--secondary);
+    color: var(--light);
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.form-control, .btn {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+    .statistics-row .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .form-row .form-group {
+        margin-bottom: 15px;
+    }
+}

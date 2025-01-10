@@ -11,7 +11,7 @@ class Autoloader {
             if (file_exists($FullPath)) {
                 require_once $FullPath;
             } else {
-                die("Error: Class $class not found in $FullPath\n");
+                die("autoloader problem Class $class not found in $FullPath\n");
             }
         });
     }

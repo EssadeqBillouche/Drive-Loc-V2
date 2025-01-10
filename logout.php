@@ -4,7 +4,7 @@ use classes\Autoloader;
 
 Autoloader::AutoloaderFunction();
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['Logoutbtn'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['logOut'])) {
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }

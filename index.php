@@ -137,16 +137,16 @@ Autoloader::AutoloaderFunction();
                 <i class="fas fa-car mr-2 text-info"></i>
                 <span>My Bookings</span>
             </a>
+           
+           
         </div>
         <div class="dropdown-divider"></div>
         <div class="dropdown-divider"></div>
         <form action="logout.php" method="POST" style="display: inline;">
     <button type="submit" class="btn btn-danger btn-sm ml-3" name="Logoutbtn">
-        <i class="fa fa-sign-out-alt"></i> Logojjjut
+        <i class="fa fa-sign-out-alt"></i> LogOut
     </button>
-</form>
-
-
+        </form>
     </div>
 </div><button class="btn btn-danger btn-sm ml-3" href="logout.php"><i class="fa fa-sign-out-alt"></i> Logout</button>';
                         }else{

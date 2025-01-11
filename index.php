@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'classes/Autoloader.php';
+require_once __DIR__ . '/vendor/autoload.php';
 require 'logout.php';
 use classes\Autoloader;
 use classes\user;

@@ -1,0 +1,12 @@
+{
+    "name": "essadeq/drive-loc-v2",
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "Blog/Classes/",
+            "Model\\": "Blog/Model/",
+            "Controller\\": "Blog/Controllers/",
+            "View\\": "Blog/Views/"
+        }
+    },
+    "require": {}
+}
